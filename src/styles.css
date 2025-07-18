@@ -2,3 +2,8 @@
 @import "tailwindcss";
 @import "preline/variants.css";
 @plugin "@tailwindcss/forms";
+
+body {
+  cursor: url('assets/cur271.cur') 16 16, auto;
+}
+

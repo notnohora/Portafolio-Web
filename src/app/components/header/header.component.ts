@@ -9,9 +9,13 @@ import { RouterLink } from '@angular/router';
 })
 export class HeaderComponent {
   activeTab: string = '';
+  menuOpen = false;
   
   SetActiveTab(tab:string){
     this.activeTab = tab
   }
-
+  
+  toggleMenu(){
+    this.menuOpen = !this.menuOpen;
+  }
 }
